@@ -1,0 +1,42 @@
+.fc-view > table, .fc-widget-header > table, .fc-content-skeleton > table {
+  background-color: transparent;
+  margin-bottom: 0px; }
+  .fc-view > table thead, .fc-widget-header > table thead, .fc-content-skeleton > table thead {
+    background: transparent; }
+
+.fc-slats > table, .fc-slats > table tr.even, .fc-slats > table tr.alt, .fc-slats > table tr:nth-of-type(even) {
+  background-color: transparent; }
+
+.fc-center > h2 {
+  font-size: 26px;
+  font-weight: bold;
+  position: relative;
+  top: -.26em; }
+
+.fc-state-default {
+  background-image: none; }
+
+.fc button {
+  height: 1.7em;
+  padding: 0 .3em; }
+
+.fc-toolbar {
+  margin-bottom: -7px; }
+
+.fc-button.disabled, .fc-button[disabled] {
+  color: #333333;
+  background-color: #e6e6e6;
+  border-color: #e6e6e6; }
+
+.fc-state-default.fc-corner-left {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px; }
+
+.fc-state-default.fc-corner-right {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px; }
+
+.fc-left > button.disabled:hover, .fc-left > button.disabled:focus, .fc-left > button[disabled]:hover, .fc-left > button[disabled]:focus, .fc-left > .button.disabled:hover, .fc-left > .button.disabled:focus, .fc-left > .button[disabled]:hover, .fc-left > .button[disabled]:focus {
+  color: #333333;
+  background-color: #e6e6e6;
+  border-color: #e6e6e6; }
